@@ -12,7 +12,7 @@ st.markdown("""
 <style>
 
 h1, h2 {
-    color: #00E5FF !important;
+    color: #D2691E !important;
 }
 h3{
        color: white; 
@@ -22,7 +22,7 @@ h3{
     width: 250%;
     height: 120px;
     border-radius: 100px;
-    background: #1E3A5F;
+    background: #D2691E;
     color: white;
     border: none;
     font-size: 20px;
