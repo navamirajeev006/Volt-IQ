@@ -12,7 +12,7 @@ st.markdown("""
 <style>
 
 h1, h2 {
-    color: #D2691E !important;
+    color: #A52A2A !important;
 }
 h3{
        color: white; 
@@ -22,7 +22,7 @@ h3{
     width: 250%;
     height: 120px;
     border-radius: 100px;
-    background: #D2691E;
+    background: #A52A2A;
     color: white;
     border: none;
     font-size: 20px;
@@ -39,7 +39,7 @@ h3{
     background-color: #1E1E1E;
     padding: 15px;
     border-radius: 12px;
-    border: 1px solid #00E5FF;
+    border: 1px solid #A52A2A;
 }
 @keyframes fadeIn {
     from {
@@ -81,7 +81,7 @@ button[kind="tertiary"] {
 }
 
 button[kind="tertiary"]:hover {
-    box-shadow: 0 0 15px #00E5FF !important;
+    box-shadow: 0 0 15px #A52A2A !important;
     transform: translateY(-2px);
 }
 .stDownloadButton > button {
@@ -116,7 +116,7 @@ button[kind="tertiary"]:hover {
 
 
 [data-testid="stFileUploader"] button:hover {
-    box-shadow: 0 0 10px #00E5FF !important;
+    box-shadow: 0 0 10px #A52A2A !important;
 }
 .center-btn {
     display: flex;
