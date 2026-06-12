@@ -12,7 +12,7 @@ st.markdown("""
 <style>
 
 h1, h2 {
-    color: #6F4E37 !important;
+    color: #C19A6B !important;
 }
 h3{
        color: white; 
@@ -22,7 +22,7 @@ h3{
     width: 250%;
     height: 120px;
     border-radius: 100px;
-    background: #6F4E37;
+    background:#6F4E37;
     color: white;
     border: none;
     font-size: 20px;
@@ -30,7 +30,7 @@ h3{
     box-shadow: 0 4px 12px rgba(0,0,0,0.3);
 }
 .stButton > button:hover {
-    background: #2A4D75;
+    background:  #C19A6B;
     transform: translateY(-5px);
     transition: all 0.3s ease;
 }
