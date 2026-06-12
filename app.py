@@ -247,7 +247,8 @@ if st.session_state.page == "Home":
     color: #6F4E37;
     letter-spacing: 4px;
     margin-bottom: 0px;
-   text-shadow: 0px 0px 15px rgba(111, 78, 55, 0.8);
+   text-shadow: 0px 0px 10px rgba(111, 78, 55, 0.9),
+             0px 0px 25px rgba(111, 78, 55, 0.6);
 ">
  Volt-IQ
 </h1>
