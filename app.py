@@ -12,7 +12,7 @@ st.markdown("""
 <style>
 
 h1, h2 {
-    color: #C19A6B !important;
+    color: #00E5FF !important;
 }
 h3{
        color: white; 
@@ -22,7 +22,7 @@ h3{
     width: 250%;
     height: 120px;
     border-radius: 100px;
-    background:#6F4E37;
+    background: #1E3A5F;
     color: white;
     border: none;
     font-size: 20px;
@@ -30,7 +30,7 @@ h3{
     box-shadow: 0 4px 12px rgba(0,0,0,0.3);
 }
 .stButton > button:hover {
-    background:  #C19A6B;
+    background: #2A4D75;
     transform: translateY(-5px);
     transition: all 0.3s ease;
 }
@@ -39,7 +39,7 @@ h3{
     background-color: #1E1E1E;
     padding: 15px;
     border-radius: 12px;
-    border: 1px solid #6F4E37;
+    border: 1px solid #00E5FF;
 }
 @keyframes fadeIn {
     from {
@@ -81,7 +81,7 @@ button[kind="tertiary"] {
 }
 
 button[kind="tertiary"]:hover {
-    box-shadow: 0 0 15px #6F4E37 !important;
+    box-shadow: 0 0 15px #00E5FF !important;
     transform: translateY(-2px);
 }
 .stDownloadButton > button {
@@ -116,7 +116,7 @@ button[kind="tertiary"]:hover {
 
 
 [data-testid="stFileUploader"] button:hover {
-    box-shadow: 0 0 10px #6F4E37 !important;
+    box-shadow: 0 0 10px #00E5FF !important;
 }
 .center-btn {
     display: flex;
@@ -166,7 +166,7 @@ def create_pdf(content):
 
         pdf.multi_cell(190, 8, line)
 
-    return bytes(pdf.output(dest="S"))
+    return pdf.output(dest="S").encode("latin-1")
 # PASTE THE NEW FUNCTION HERE
 def analyze_circuit_image(image_file):
 
@@ -244,11 +244,10 @@ if st.session_state.page == "Home":
     text-align: center;
     font-size: 90px;
     font-weight: 900;
-    color: #6F4E37;
+    color: #00E5FF;
     letter-spacing: 4px;
     margin-bottom: 0px;
-   text-shadow: 0px 0px 10px rgba(111, 78, 55, 0.9),
-             0px 0px 25px rgba(111, 78, 55, 0.6);
+    text-shadow: 0px 0px 15px rgba(0,229,255,0.7);
 ">
  Volt-IQ
 </h1>
@@ -353,7 +352,7 @@ elif st.session_state.page == "AI Chat":
                 overflow-y: auto;
                 padding: 12px;
                 background-color: #111;
-                border: 1px solid ##6F4E37;
+                border: 1px solid #00E5FF;
                 border-radius: 10px;
                 color: #b0b0b0;
                 font-size: 14px;
